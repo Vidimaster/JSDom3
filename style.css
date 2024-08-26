@@ -1,0 +1,34 @@
+hr {
+    border-top: 1px dotted rgb(0, 4, 255);
+}
+
+button {
+    background-color: #04AA6D;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    box-shadow: 1px 3px 3px 0 rgba(83, 97, 2, 0.48), 0 3px 2px 1px rgba(22, 20, 70, 0.48);
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    transition: all 0.3s;
+}
+
+.box-shad {
+    background-color: white;
+    padding: 5px;
+
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #a1a6ee;
+    box-shadow: 1px 3px 3px 0 rgba(0, 60, 255, 0.48), 0 5px 2px 0 rgba(217, 6, 6, 0.11);
+    max-width: 400px;
+    font-size: 20px;
+}
